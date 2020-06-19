@@ -52,7 +52,7 @@ h4 {
     background-image: url(/img/imagen-header.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 30rem;
+    height: 40rem;
 }
 
 
@@ -70,8 +70,7 @@ h4 {
 }
 
 .navegacion ul li a {
-    font-family: 'Open Sans Regular', sans-serif;
-    font-size: 400;
+    font-family: 'Open Sans', sans-serif;
     color: #ffffff;
     text-decoration: none;
     margin-right: 3rem;
@@ -88,4 +87,51 @@ h4 {
 .lista-enlaces {
     display: flex;
     padding-left: 2rem;
+}
+
+
+/*header*/
+
+.texto-header {
+    display: block;
+    text-align: right;
+}
+
+.texto-header h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #ffffff;
+    padding-left: 40rem;
+    margin-right: 10rem;
+    line-height: 1.5;
+}
+
+.texto-header h3 {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-right: 10rem;
+}
+
+
+/*main*/
+
+.contenedor-principal {
+    height: 55rem;
+}
+
+.ubicacion {
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.texto-ubicacion h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    line-height: .8;
+}
+
+.texto-ubicacion p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: .5;
 }
